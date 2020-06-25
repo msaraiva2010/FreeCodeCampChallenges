@@ -11,7 +11,7 @@ label,legend {
 fieldset {
     margin-bottom: 30px;
 }
-#name,#email,#idade,#dropdown-experiencia,
+#name,#email,#number,#dropdown,
 #text-area {
     padding: 10px;
     border-radius: 10px;
@@ -46,16 +46,13 @@ fieldset {
     background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
     color: rgb(199, 192, 192);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
     font-style: italic;
     margin: auto;
     height: 80px;
     width: 700px;
     padding: 20px;
-    position: absolute;
-    border: yellow 3px solid;
-/*    transform: translate(-50%, -50%);
-    text-align: center;*/
+    position: relative;
+    text-align: center;
 }
 #div-principal {
     border-radius: 10px;
@@ -64,11 +61,9 @@ fieldset {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
     color: rgb(199, 192, 192);
-    font-weight: bold;
-    margin-top: 640px;
+    margin-top: 500px;
     margin-left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
     width: 700px;
     height: 950px;
     padding: 20px;
